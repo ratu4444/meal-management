@@ -14,5 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('meal-custom-layout.master');
+
+});
+
+Route::get('/', function () {
+    return view('meal-custom-layout.master');
 });
